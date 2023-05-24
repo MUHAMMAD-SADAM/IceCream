@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice cream</title>
+    <link rel="shortcut icon"
+     href="https://tse3.mm.bing.net/th?id=OIP.YF9GEaPw1XJr6_A6jClOGwHaE7&pid=Api&P=0" 
+     type="image/x-icon">
+</head>
+<style>
+    body{
+        background-color: #212121;
+        margin-top: 100px;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: center;
+    }
+
+    .loader{
+        height: 185px;
+        width: 100px;
+        border-radius: 55px 55px 10px 10px;
+        position: relative;
+        background: #ff3d00;
+        background-image: linear-gradient( 0deg,
+        #f63a99 25%,
+        #38dcf6 25%,
+        #38dcf6 25%,
+        #38dcf6 50%,
+        #000000 50%,
+        #f2d200 50%,
+        #f2d200 75%,
+        #18ca5c 75%);
+        background-position: 0px 8px;
+        background-size: auto 175px;
+        background-repeat: repeat-y;
+        animation: colorShift 6s linear infinite;
+    }
+
+    .loader:before {
+        content: '';
+       position: absolute;       
+        left: 10px;
+        bottom: 10px;
+       /* width: 15px;*/
+        height: 80%;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+     .loader:after{
+            content: "";
+            position: absolute;
+            left: 35%;
+            top: 100%;
+            transform: translate(-50, 0);
+            box-shadow: 0 15px 2px rgba(0, 0, 0, 0.25)inset;
+            width: 32px;
+            height: 45px;
+            background: rgb(178, 178, 79);
+            border-radius: 0 0 12px 12px;
+        }
+        @keyframes colorShift {
+            to{
+                background-position: 0 175px;
+            }
+        }
+</style>
+<body>
+    <h1>Ice-cream for Matti-ul-Hassan<br>
+     Matti-ul-Hassan, it's (<em><u>weather demand</u></em>)
+    <br>
+    <h2><em>Life is like an ice-cream...Enjoy it before it melts.</em><br></h2>
+    
+    
+<center><div class="loader"></div></center>
+</body>
+</html>
